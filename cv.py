@@ -8,7 +8,6 @@ face_cascade = cv2.CascadeClassifier('xml/front.xml')
 eye_cascade = cv2.CascadeClassifier('xml/eye.xml')
 
 num = random.randint(10, 100)
-zface = cv2.imread("img/zombie.png", -1)
 
 #   SET CAPTURE TO CAM 0   #
 cap = cv2.VideoCapture(0)
